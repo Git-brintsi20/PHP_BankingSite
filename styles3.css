@@ -1,0 +1,173 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 10px 0;
+}
+
+p, ul {
+  margin: 10px 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: between;
+  padding: 20px;
+  background-color: #004B87;
+  color: #fff;
+}
+
+  
+.logo-image {
+  height: 200px;
+  width: 200px;
+  margin-right: 200px;
+}
+
+.title h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  padding:0;
+  text-align: center;
+  margin-right: 30px;
+
+}
+.nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav ul li {
+  padding: 14px 20px;
+  
+}
+
+.nav ul li a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 1.2rem;
+}
+
+.nav ul li a:hover {
+  background-color: #575757;
+}
+
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 5%;
+  background-color: #004B87;
+  margin-right:10px;
+}
+
+.banner-image img {
+  width: 200%;
+   height: auto;
+  max-height: 400px;
+  
+}
+
+.news {
+  width: 30%;
+  height:auto;
+  padding-left: 30px;
+  padding-right:50px;
+  
+}
+
+.news img {
+  width: 100%;
+  height: auto;
+  margin-left:40px;
+}
+
+
+.about {
+  padding: 40px 5%;
+  background-color: #fff;
+}
+
+.about h2 {
+  font-size: 5rem;
+  margin-bottom: 20px;
+}
+
+.about p{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.about ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
+
+
+.services {
+  padding: 40px 5%;
+  background-color: #004B87;
+  color: #fff;
+}
+
+.services h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background-color: #fff;
+  color: #333;
+  width: 22%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.service-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+
+.footer {
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
